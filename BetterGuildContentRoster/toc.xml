@@ -1,0 +1,5 @@
+<Addon Name="BetterGuildContentRoster" APIVersion="9" Author="HammsterZ" Version="3.1.2" Description="">
+    <Script Name="GuildRoster.lua"/>
+    <Form Name="GuildRoster.xml"/>
+    <ReplaceAddon Name="GuildContentRoster"/>
+</Addon>

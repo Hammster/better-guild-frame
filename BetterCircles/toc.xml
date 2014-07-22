@@ -1,0 +1,5 @@
+<Addon Name="BetterCircles" APIVersion="9" Author="HammsterZ" Version="3.2.2" Description="">
+    <Script Name="CirclesMain.lua"/>
+    <Form Name="CirclesMain.xml"/>
+    <ReplaceAddon Name="Circles"/>
+</Addon>

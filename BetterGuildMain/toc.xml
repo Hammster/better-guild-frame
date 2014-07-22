@@ -1,0 +1,5 @@
+<Addon Name="BetterGuildMain" APIVersion="9" Author="HammsterZ" Version="0" Description="">
+    <Script Name="GuildMain.lua"/>
+    <Form Name="GuildMain.xml"/>
+    <ReplaceAddon Name="Guild"/>
+</Addon>
