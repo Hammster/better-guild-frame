@@ -229,15 +229,15 @@ function GuildRoster:BuildRosterList(guildCurr, tRoster)
 					strIcon = "CRB_Basekit:kitIcon_Holo_Actions"
 				end
 				
-				if tCurr.strClass == "Engineer" or tCurr.strClass == "Techpionier" or tCurr.strClass == "Ingénieur" then
+				if tCurr.strClass == "Engineer" or tCurr.strClass == "Techpionier" or tCurr.strClass == "Techpionierin" or tCurr.strClass == "Ing\195\169nieur" then
 					nClassIcon = "IconSprites:Icon_Windows_UI_CRB_Engineer"
-				elseif tCurr.strClass == "Warrior" or tCurr.strClass == "Krieger" or tCurr.strClass == "Guerrier" then
+				elseif tCurr.strClass == "Warrior" or tCurr.strClass == "Krieger" or tCurr.strClass == "Kriegerin" or tCurr.strClass == "Guerrier" then
 					nClassIcon = "IconSprites:Icon_Windows_UI_CRB_Warrior"
-				elseif tCurr.strClass == "Stalker" or tCurr.strClass == "Meuchler" or tCurr.strClass == "Rôdeur" then
+				elseif tCurr.strClass == "Stalker" or tCurr.strClass == "Meuchler" or tCurr.strClass == "Meuchlerin" or tCurr.strClass == "R\195\180deur" then
 					nClassIcon = "IconSprites:Icon_Windows_UI_CRB_Stalker"
-				elseif tCurr.strClass == "Medic" or tCurr.strClass == "Sanitäter" or tCurr.strClass == "Toubib" then
+				elseif tCurr.strClass == "Medic" or tCurr.strClass == "Sanit\195\164ter" or tCurr.strClass == "Sanit\195\164terin" or tCurr.strClass == "Toubib" then
 					nClassIcon = "IconSprites:Icon_Windows_UI_CRB_Medic"
-				elseif tCurr.strClass == "Spellslinger" or tCurr.strClass == "Arkanschütze" or tCurr.strClass == "Arcanero" then
+				elseif tCurr.strClass == "Spellslinger" or tCurr.strClass == "Arkansch\195\188tze" or tCurr.strClass == "Arkansch\195\188tzin" or tCurr.strClass == "Arcanero" then
 					nClassIcon = "IconSprites:Icon_Windows_UI_CRB_Spellslinger"
 				else 
 					nClassIcon = "IconSprites:Icon_Windows_UI_CRB_Esper"
